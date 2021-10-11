@@ -1,7 +1,9 @@
-.App {
-  text-align: center;
+/*.App {*/
+/*  text-align: center;*/
+/*}*/
+body{
+  background: darkslateblue;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +37,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.film_img{
+  width: 250px;
+  height: 300px;
+  margin-top: 20px;
+}
+.block_film{
+  background: white;
+  margin: 20px auto;
+  width: 300px;
+  min-height: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.block_About{
+  background: white;
+  display: flex;
+  margin: 20px auto;
+  width: 600px;
+  min-height: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: black 1px 1px;
+}
+.My_photo{
+  width: 260px;
+  height: 260px;
+  margin: 20px 20px;
+}
+.time{
+  font-size: 60px;
+  text-align: center;
 }
